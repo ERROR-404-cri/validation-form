@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="outer">
+        <h1>Sign up</h1>
+        <div class="inner">
+            <label>username</label>
+            <input type="text" id="username">
+            <span class="blankError" id="usere1">field can not be blank</span>
+            <span id="usere2" class="blankError">
+              Not a valid name
+            </span>
+        </div>
+        <div class="inner">
+            <label>email</label>
+            <input type="text" id="email">
+            <span class="blankError" id="emaile1">field can not be blank</span>
+            <span class="blankError" id="emaile2">not valid email</span>
+        </div>
+        <div class="inner">
+            <label>password</label>
+            <input type="text" id="password">
+            <span class="blankError" id="passe1">field can not be blank</span>
+            <span class="blankError" id="passe2">Must contain 1 uppercase, 1 lowercase, 1 number & should be greater
+                than 8 characters</span>
+        </div>
+        <div class="inner">
+            <label>confirm password</label>
+            <input type="text" id="cPassword">
+            <span class="blankError" id="cpasse1">field can not be blank</span>
+            <span class="blankError" id="cpasse2">password don't match</span>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
